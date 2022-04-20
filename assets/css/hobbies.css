@@ -1,0 +1,32 @@
+.hobbies-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  background-color: #751ae8;
+  color: white;
+  font-weight: 700;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  
+}
+
+.hobbies {
+  width: 15%;
+  height: 100%;
+  text-align: center;
+}
+
+.hobbies-title {
+  margin-bottom: 1.3rem;
+  font-size: 14pt;
+}
+
+.hobbies-image{
+margin-bottom: 1.3rem;
+}
+
+.hobbies-text {
+  text-align: justify;
+  font-size: 12pt;
+}

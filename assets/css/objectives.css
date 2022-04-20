@@ -1,0 +1,16 @@
+.objectives-image {
+  height: 35rem;
+  position: relative;
+  right: 3rem;
+}
+
+.objectives-title {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.objectives-text {
+  align-self: center;
+  text-align: justify;
+}

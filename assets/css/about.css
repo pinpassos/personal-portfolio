@@ -1,0 +1,40 @@
+.about-me--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #ffffff;
+}
+
+.about-me--title {
+  max-width: 600px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  margin-bottom: .5rem;
+}
+
+.about-me--text {
+  text-align: justify;
+  font-size: 18px;
+  max-width: 600px;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-me--button {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid whitesmoke;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.about-me--button:hover {
+  font-weight: 600;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}

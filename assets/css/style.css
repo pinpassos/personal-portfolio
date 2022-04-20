@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body-grid {
+  display: grid;
+  grid-template-areas: 
+    "navbar"
+    "header"
+    "section"
+    "hobbies"
+    "objectives"
+    "contact"
+    "footer";
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 100vh 1fr auto 1fr auto 30px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 0.5fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  padding: 5rem 6rem;
+}
+
+.technologies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 68px);
+  grid-template-rows: repeat(4, 68px);
+  justify-content: space-evenly;
+  row-gap: 1.2rem;
+}
+
+.hobbies-grid {
+  grid-area: hobbies;
+  padding: 10rem 0;
+}
+
+.objectives-grid {
+  display: grid;
+  grid-area: objectives;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 6rem 6rem;
+}
+
+.contact-form {
+  grid-area: contact;
+  background-color: #751ae8;
+}
+
+.nav-bar {
+  grid-area: navbar;
+}
+
+.about-me {
+  grid-area: header;
+  background-color: #751ae8;
+}
+
+.skills-section {
+  grid-area: section;
+}
+
+.footer-section {
+  grid-area: footer;
+  background-color: #751ae8;
+}

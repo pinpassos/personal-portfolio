@@ -1,0 +1,119 @@
+.article-aboutme {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.skills-image--aboutme {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.skills-image--technologies {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.article-technologies {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+
+.skills-section--image {
+  height: 100%;
+  width: 100%;
+}
+
+.skills-section--title {
+  font-size: 24pt;
+  margin-bottom: 10px;
+}
+
+
+.skills-section--text {
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-section--text--techs {
+  font-size: 12pt;
+  font-weight: 700;
+  color: #751ae8;
+  text-transform: capitalize;
+}
+
+.skills-section--title--technology {
+  font-size: 24pt;
+  margin-bottom: 10px;
+}
+
+
+.tech-image-html {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.tech-image-css {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+
+.tech-image-js {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.tech-image-python {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.tech-image-django {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.tech-image-nodejs{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.tech-image-react {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.tech-image-docker {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.tech-image-bootstrap {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.tech-image-aws {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.tech-image-express {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.tech-image.git {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.objectives{
+  grid-column: 1;
+}
+
+.objectives-text {
+  grid-column: 2;
+}
